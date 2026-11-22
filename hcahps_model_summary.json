@@ -1,0 +1,56 @@
+{
+  "rows": 3183,
+  "features": 10,
+  "positive_count": 1444,
+  "positive_rate": 0.45366006911718504,
+  "train_rows": 2546,
+  "test_rows": 637,
+  "best_model": "Logistic regression",
+  "best_test_confusion_matrix": [
+    [
+      319,
+      29
+    ],
+    [
+      23,
+      266
+    ]
+  ],
+  "classification_report": {
+    "0": {
+      "precision": 0.9327485380116959,
+      "recall": 0.9166666666666666,
+      "f1-score": 0.9246376811594202,
+      "support": 348.0
+    },
+    "1": {
+      "precision": 0.9016949152542373,
+      "recall": 0.9204152249134948,
+      "f1-score": 0.910958904109589,
+      "support": 289.0
+    },
+    "accuracy": 0.9183673469387755,
+    "macro avg": {
+      "precision": 0.9172217266329665,
+      "recall": 0.9185409457900807,
+      "f1-score": 0.9177982926345046,
+      "support": 637.0
+    },
+    "weighted avg": {
+      "precision": 0.9186598457402586,
+      "recall": 0.9183673469387755,
+      "f1-score": 0.9184317681807682,
+      "support": 637.0
+    }
+  },
+  "excluded_leakage_fields": [
+    "Overall hospital rating - star rating",
+    "Overall hospital rating - linear mean score",
+    "Summary star rating",
+    "Recommend hospital - linear mean score",
+    "Recommend hospital - star rating",
+    "Patients who gave their hospital a rating of 6 or lower on a scale from 0 (lowest) to 10 (highest)",
+    "Patients who gave their hospital a rating of 7 or 8 on a scale from 0 (lowest) to 10 (highest)",
+    "Patients who gave their hospital a rating of 9 or 10 on a scale from 0 (lowest) to 10 (highest)"
+  ]
+}
